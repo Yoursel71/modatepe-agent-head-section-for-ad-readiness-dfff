@@ -83,7 +83,7 @@ export default async function RestaurantPage({ params: { locale } }: RestaurantP
               {translations.restaurant.intro}
             </p>
 
-            <div className="flex items-center justify-center gap-4 bg-brand-gray-100 rounded-2xl py-6 px-8 mb-8">
+            <div className="flex items-center justify-center gap-4 bg-brand-gray-100 dark:bg-gray-800 rounded-2xl py-6 px-8 mb-8">
               <Clock className="w-6 h-6 text-brand-green" />
               <span className="text-lg font-semibold text-brand-green">
                 {translations.hours.opening}
@@ -101,7 +101,7 @@ export default async function RestaurantPage({ params: { locale } }: RestaurantP
       </section>
 
       {/* Menu Section */}
-      <section className="py-16 bg-brand-gray-100">
+      <section className="py-16 bg-brand-gray-100 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-brand-green">
             {translations.restaurant.menu.title}

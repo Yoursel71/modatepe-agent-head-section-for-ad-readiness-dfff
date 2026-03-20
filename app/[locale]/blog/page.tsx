@@ -61,7 +61,7 @@ export default async function BlogPage({ params: { locale } }: BlogPageProps) {
   return (
     <>
       {/* Hero Section */}
-      <section className="py-20 bg-brand-gray-100">
+      <section className="py-20 bg-brand-gray-100 dark:bg-gray-900">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-brand-green animate-fade-in">
             {translations.blog.title}

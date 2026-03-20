@@ -24,7 +24,7 @@ export default async function ContactPage({ params: { locale } }: ContactPagePro
   return (
     <>
       {/* Hero Section */}
-      <section className="py-20 bg-brand-gray-100">
+      <section className="py-20 bg-brand-gray-100 dark:bg-gray-900">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-brand-green animate-fade-in">
             {translations.contact.title}
@@ -52,7 +52,7 @@ export default async function ContactPage({ params: { locale } }: ContactPagePro
       </section>
 
       {/* Map Section */}
-      <section className="py-16 bg-brand-gray-100">
+      <section className="py-16 bg-brand-gray-100 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12 text-brand-green">
             {translations.home.location.title}

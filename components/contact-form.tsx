@@ -87,7 +87,7 @@ export function ContactForm({ locale, translations }: ContactFormProps) {
               onChange={(e) => handleInputChange('name', e.target.value)}
               placeholder={translations.contact.forms.contact.name}
               required
-              className="border-gray-300 focus:border-brand-green focus:ring-brand-green"
+              className="border-gray-300 dark:border-gray-600 focus:border-brand-green focus:ring-brand-green"
             />
           </div>
 
@@ -100,7 +100,7 @@ export function ContactForm({ locale, translations }: ContactFormProps) {
               onChange={(e) => handleInputChange('email', e.target.value)}
               placeholder={translations.contact.forms.contact.email}
               required
-              className="border-gray-300 focus:border-brand-green focus:ring-brand-green"
+              className="border-gray-300 dark:border-gray-600 focus:border-brand-green focus:ring-brand-green"
             />
           </div>
 
@@ -113,7 +113,7 @@ export function ContactForm({ locale, translations }: ContactFormProps) {
               onChange={(e) => handleInputChange('phone', e.target.value)}
               placeholder={translations.contact.forms.contact.phone}
               required
-              className="border-gray-300 focus:border-brand-green focus:ring-brand-green"
+              className="border-gray-300 dark:border-gray-600 focus:border-brand-green focus:ring-brand-green"
             />
           </div>
 
@@ -126,7 +126,7 @@ export function ContactForm({ locale, translations }: ContactFormProps) {
               placeholder={translations.contact.forms.contact.message}
               required
               rows={4}
-              className="border-gray-300 focus:border-brand-green focus:ring-brand-green"
+              className="border-gray-300 dark:border-gray-600 focus:border-brand-green focus:ring-brand-green"
             />
           </div>
 
@@ -139,7 +139,7 @@ export function ContactForm({ locale, translations }: ContactFormProps) {
             />
             <Label 
               htmlFor="contact-privacy" 
-              className="text-sm text-gray-600 leading-relaxed cursor-pointer"
+              className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed cursor-pointer"
             >
               {translations.contact.forms.privacy.text}
             </Label>

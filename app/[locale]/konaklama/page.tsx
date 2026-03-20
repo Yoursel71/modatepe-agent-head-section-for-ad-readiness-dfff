@@ -117,7 +117,7 @@ export default async function AccommodationPage({ params: { locale } }: Accommod
       </section>
 
       {/* Room Types */}
-      <section className="py-16 bg-brand-gray-100">
+      <section className="py-16 bg-brand-gray-100 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-brand-green">
             {translations.accommodation.rooms.title}
@@ -154,7 +154,7 @@ export default async function AccommodationPage({ params: { locale } }: Accommod
                     {room.amenities.map((amenity, idx) => (
                       <span
                         key={idx}
-                        className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium"
+                        className="bg-green-100 dark:bg-green-900/40 text-green-800 dark:text-green-300 px-3 py-1 rounded-full text-sm font-medium"
                       >
                         {amenity}
                       </span>
@@ -214,7 +214,7 @@ export default async function AccommodationPage({ params: { locale } }: Accommod
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16 bg-brand-gray-100">
+      <section className="py-16 bg-brand-gray-100 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-brand-green">
             {translations.accommodation.faq.title}
@@ -223,7 +223,7 @@ export default async function AccommodationPage({ params: { locale } }: Accommod
           <div className="max-w-3xl mx-auto">
             <Accordion type="single" collapsible className="space-y-4">
               {faqs.map((faq, index) => (
-                <AccordionItem key={index} value={`item-${index}`} className="bg-white rounded-2xl px-6 border-0 shadow-md">
+                <AccordionItem key={index} value={`item-${index}`} className="bg-white dark:bg-gray-800 rounded-2xl px-6 border-0 shadow-md">
                   <AccordionTrigger className="text-left font-semibold text-brand-green hover:no-underline">
                     {faq.question}
                   </AccordionTrigger>

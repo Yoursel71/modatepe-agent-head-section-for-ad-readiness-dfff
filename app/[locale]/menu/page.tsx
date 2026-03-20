@@ -88,10 +88,10 @@ export default async function MenuPage({ params: { locale } }: MenuPageProps) {
             </section>
 
             {/* Menu Section */}
-            <section className="py-12 bg-white min-h-screen">
+            <section className="py-12 bg-white dark:bg-gray-950 min-h-screen">
                 <div className="container mx-auto px-4 max-w-3xl">
                     <Tabs defaultValue="breakfast" className="w-full">
-                        <TabsList className="flex w-full overflow-x-auto mb-8 bg-white shadow-sm p-1.5 rounded-2xl border border-slate-100 sticky top-4 z-40 no-scrollbar">
+                        <TabsList className="flex w-full overflow-x-auto mb-8 bg-white dark:bg-gray-900 shadow-sm p-1.5 rounded-2xl border border-slate-100 dark:border-gray-700 sticky top-4 z-40 no-scrollbar">
                             <TabsTrigger
                                 value="breakfast"
                                 className="flex-1 min-w-[100px] data-[state=active]:bg-brand-green data-[state=active]:text-white rounded-xl font-medium transition-all py-3"
@@ -155,7 +155,7 @@ export default async function MenuPage({ params: { locale } }: MenuPageProps) {
                                                             </h3>
                                                         </div>
                                                         {item.description && (
-                                                            <p className="text-gray-700 leading-relaxed text-sm">
+                                                            <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-sm">
                                                                 {item.description}
                                                             </p>
                                                         )}
@@ -175,11 +175,11 @@ export default async function MenuPage({ params: { locale } }: MenuPageProps) {
                     </Tabs>
 
                     <div className="mt-12 mb-8">
-                        <div className="bg-blue-50 border border-blue-100 rounded-2xl p-5 flex items-start gap-4 shadow-sm">
+                        <div className="bg-blue-50 dark:bg-blue-950/50 border border-blue-100 dark:border-blue-800 rounded-2xl p-5 flex items-start gap-4 shadow-sm">
                             <Info className="w-6 h-6 text-blue-600 flex-shrink-0 mt-0.5" />
                             <div>
-                                <h4 className="font-semibold text-blue-900 mb-1">{translations.restaurant.menu.menuInfoTitle}</h4>
-                                <p className="text-sm text-blue-800 leading-relaxed">
+                                <h4 className="font-semibold text-blue-900 dark:text-blue-200 mb-1">{translations.restaurant.menu.menuInfoTitle}</h4>
+                                <p className="text-sm text-blue-800 dark:text-blue-300 leading-relaxed">
                                     {translations.restaurant.menu.menuInfoText}
                                 </p>
                             </div>

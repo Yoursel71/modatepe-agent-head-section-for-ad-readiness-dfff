@@ -104,7 +104,7 @@ export default async function HomePage({ params: { locale } }: HomePageProps) {
       </section>
 
       {/* Highlights Section */}
-      <section className="py-20 bg-brand-gray-100">
+      <section className="py-20 bg-brand-gray-100 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-brand-green">
             {translations.home.highlights.title}
@@ -166,7 +166,7 @@ export default async function HomePage({ params: { locale } }: HomePageProps) {
       </section>
 
       {/* Location Section */}
-      <section className="py-20 bg-brand-gray-100">
+      <section className="py-20 bg-brand-gray-100 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-brand-green">
             {translations.home.location.title}
