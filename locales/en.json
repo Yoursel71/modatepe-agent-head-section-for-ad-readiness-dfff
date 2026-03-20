@@ -52,7 +52,11 @@
       "breakfast": "Breakfast",
       "mainCourses": "Main Courses",
       "drinks": "Beverages",
-      "desserts": "Desserts"
+      "desserts": "Desserts",
+      "perPerson": "Per Person",
+      "menuSubtitle": "The finest flavors of Black Sea cuisine",
+      "menuInfoTitle": "Information",
+      "menuInfoText": "Our prices may vary according to current market conditions. For allergen warnings and detailed information, please ask our service staff for help. A 10% service charge may be added to your bill."
     },
     "menuItems": {
       "serpmeKahvalti": {

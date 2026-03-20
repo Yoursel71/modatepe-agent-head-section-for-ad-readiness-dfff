@@ -32,7 +32,7 @@ export default async function RestaurantPage({ params: { locale } }: RestaurantP
 
   const menuItems = {
     breakfast: [
-      { name: translations.restaurant.menuItems.serpmeKahvalti.name, price: '₺1200', description: translations.restaurant.menuItems.serpmeKahvalti.description }
+      { name: translations.restaurant.menuItems.serpmeKahvalti.name, price: `₺750 / ${translations.restaurant.menu.perPerson}`, description: translations.restaurant.menuItems.serpmeKahvalti.description }
     ],
     mainCourses: [
       { name: translations.restaurant.menuItems.danaAntrikot.name, price: '₺700', description: translations.restaurant.menuItems.danaAntrikot.description },

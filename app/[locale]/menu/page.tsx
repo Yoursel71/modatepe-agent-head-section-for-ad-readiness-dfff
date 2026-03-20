@@ -30,7 +30,7 @@ export default async function MenuPage({ params: { locale } }: MenuPageProps) {
         breakfast: [
             {
                 name: translations.restaurant.menuItems.serpmeKahvalti.name,
-                price: '₺1200',
+                price: `₺750 / ${translations.restaurant.menu.perPerson}`,
                 description: translations.restaurant.menuItems.serpmeKahvalti.description,
                 highlight: true
             }
@@ -74,7 +74,7 @@ export default async function MenuPage({ params: { locale } }: MenuPageProps) {
                         {translations.restaurant.menu.title}
                     </h1>
                     <p className="text-lg md:text-xl max-w-2xl mx-auto font-light opacity-90">
-                        Karadeniz mutfağının seçkin lezzetleri
+                        {translations.restaurant.menu.menuSubtitle}
                     </p>
                     <div className="mt-8">
                         <Button asChild className="whatsapp-btn text-lg px-8 py-6 rounded-full hover-glow transition-all duration-300 border-2 border-white/20 backdrop-blur-sm">
@@ -178,11 +178,9 @@ export default async function MenuPage({ params: { locale } }: MenuPageProps) {
                         <div className="bg-blue-50 border border-blue-100 rounded-2xl p-5 flex items-start gap-4 shadow-sm">
                             <Info className="w-6 h-6 text-blue-600 flex-shrink-0 mt-0.5" />
                             <div>
-                                <h4 className="font-semibold text-blue-900 mb-1">Bilgilendirme</h4>
+                                <h4 className="font-semibold text-blue-900 mb-1">{translations.restaurant.menu.menuInfoTitle}</h4>
                                 <p className="text-sm text-blue-800 leading-relaxed">
-                                    Fiyatlarımız güncel piyasa koşullarına göre değişiklik gösterebilir.
-                                    Alerjen uyarısı ve detaylı bilgi için lütfen servis personelimizden yardım isteyiniz.
-                                    Hesaplarınıza %10 servis ücreti eklenebilir.
+                                    {translations.restaurant.menu.menuInfoText}
                                 </p>
                             </div>
                         </div>
