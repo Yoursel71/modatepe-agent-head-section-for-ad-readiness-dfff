@@ -36,16 +36,16 @@ export default async function MenuPage({ params: { locale } }: MenuPageProps) {
             }
         ],
         mainCourses: [
-            { name: translations.restaurant.menuItems.kuzuPirzola.name, price: '₺800', description: translations.restaurant.menuItems.kuzuPirzola.description },
-            { name: translations.restaurant.menuItems.danaAntrikot.name, price: '₺800', description: translations.restaurant.menuItems.danaAntrikot.description },
-            { name: translations.restaurant.menuItems.sacKavurma.name, price: '₺800', description: translations.restaurant.menuItems.sacKavurma.description },
-            { name: translations.restaurant.menuItems.kofte.name, price: '₺550', description: translations.restaurant.menuItems.kofte.description },
+            { name: translations.restaurant.menuItems.kuzuPirzola.name, price: '₺900', description: translations.restaurant.menuItems.kuzuPirzola.description },
+            { name: translations.restaurant.menuItems.danaAntrikot.name, price: '₺900', description: translations.restaurant.menuItems.danaAntrikot.description },
+            { name: translations.restaurant.menuItems.sacKavurma.name, price: '₺900', description: translations.restaurant.menuItems.sacKavurma.description },
+            { name: translations.restaurant.menuItems.kofte.name, price: '₺600', description: translations.restaurant.menuItems.kofte.description },
             { name: translations.restaurant.menuItems.tavukIzgara.name, price: '₺500', description: translations.restaurant.menuItems.tavukIzgara.description },
             { name: translations.restaurant.menuItems.kofteKilo.name, price: '₺1550', description: translations.restaurant.menuItems.kofteKilo.description }
         ],
         drinks: [
             { name: translations.restaurant.menuItems.turkKahvesi.name, price: '₺150', description: translations.restaurant.menuItems.turkKahvesi.description },
-            { name: translations.restaurant.menuItems.cay.name, price: '₺40', description: translations.restaurant.menuItems.cay.description },
+            { name: translations.restaurant.menuItems.cay.name, price: '₺30', description: translations.restaurant.menuItems.cay.description },
             { name: translations.restaurant.menuItems.nescafe.name, price: '₺100', description: translations.restaurant.menuItems.nescafe.description },
             { name: translations.restaurant.menuItems.mesrubat.name, price: '₺125', description: translations.restaurant.menuItems.mesrubat.description },
             { name: translations.restaurant.menuItems.su.name, price: '₺30', description: translations.restaurant.menuItems.su.description }

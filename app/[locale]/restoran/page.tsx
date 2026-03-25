@@ -35,14 +35,14 @@ export default async function RestaurantPage({ params: { locale } }: RestaurantP
       { name: translations.restaurant.menuItems.serpmeKahvalti.name, price: `₺750 / ${translations.restaurant.menu.perPerson}`, description: translations.restaurant.menuItems.serpmeKahvalti.description }
     ],
     mainCourses: [
-      { name: translations.restaurant.menuItems.danaAntrikot.name, price: '₺700', description: translations.restaurant.menuItems.danaAntrikot.description },
-      { name: translations.restaurant.menuItems.kuzuPirzola.name, price: '₺700', description: translations.restaurant.menuItems.kuzuPirzola.description },
-      { name: translations.restaurant.menuItems.kofte.name, price: '₺500', description: translations.restaurant.menuItems.kofte.description },
-      { name: translations.restaurant.menuItems.sacKavurma.name, price: '₺700', description: translations.restaurant.menuItems.sacKavurma.description },
-      { name: translations.restaurant.menuItems.tavukIzgara.name, price: '₺700', description: translations.restaurant.menuItems.tavukIzgara.description }
+      { name: translations.restaurant.menuItems.danaAntrikot.name, price: '₺900', description: translations.restaurant.menuItems.danaAntrikot.description },
+      { name: translations.restaurant.menuItems.kuzuPirzola.name, price: '₺900', description: translations.restaurant.menuItems.kuzuPirzola.description },
+      { name: translations.restaurant.menuItems.kofte.name, price: '₺600', description: translations.restaurant.menuItems.kofte.description },
+      { name: translations.restaurant.menuItems.sacKavurma.name, price: '₺900', description: translations.restaurant.menuItems.sacKavurma.description },
+      { name: translations.restaurant.menuItems.tavukIzgara.name, price: '₺500', description: translations.restaurant.menuItems.tavukIzgara.description }
     ],
     desserts: [
-      { name: translations.restaurant.menuItems.sutlac.name, price: '₺125', description: translations.restaurant.menuItems.sutlac.description }
+      { name: translations.restaurant.menuItems.sutlac.name, price: '₺175', description: translations.restaurant.menuItems.sutlac.description }
     ]
   };
 
