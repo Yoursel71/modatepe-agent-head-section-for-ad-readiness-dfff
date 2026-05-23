@@ -83,10 +83,6 @@
         "name": "Grilled Chicken",
         "description": "Boneless chicken cutlet"
       },
-      "kofteKilo": {
-        "name": "Meatballs by Kilo",
-        "description": "Raw or cooked meatballs by kilo. Served with chips and grilled vegetables"
-      },
       "turkKahvesi": {
         "name": "Turkish Coffee",
         "description": "Traditional Turkish Coffee"

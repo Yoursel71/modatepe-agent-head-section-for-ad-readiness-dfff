@@ -83,10 +83,6 @@
         "name": "Tavuk Izgara Porsiyon",
         "description": "Banvit kemiksiz pirzola"
       },
-      "kofteKilo": {
-        "name": "Köfte Kilo",
-        "description": "Çiğ veya pişmiş kilo ile köfte satışı, Cips ve közlenmiş sebze ikramı"
-      },
       "turkKahvesi": {
         "name": "Türk Kahvesi",
         "description": "Geleneksel Türk Kahvesi"

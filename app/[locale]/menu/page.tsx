@@ -50,7 +50,6 @@ export default async function MenuPage({ params: { locale } }: MenuPageProps) {
                 { name: translations.restaurant.menuItems.sacKavurma.name, price: '₺900', description: translations.restaurant.menuItems.sacKavurma.description },
                 { name: translations.restaurant.menuItems.kofte.name, price: '₺600', description: translations.restaurant.menuItems.kofte.description },
                 { name: translations.restaurant.menuItems.tavukIzgara.name, price: '₺500', description: translations.restaurant.menuItems.tavukIzgara.description },
-                { name: translations.restaurant.menuItems.kofteKilo.name, price: '₺1550', description: translations.restaurant.menuItems.kofteKilo.description },
             ],
         },
         drinks: {
