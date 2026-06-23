@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "Ana Sayfa",
+    "restaurant": "Restoran",
     "galleryPhotos": "Tesis Fotoğrafları",
     "menu": "Menü",
     "accommodation": "Konaklama",
@@ -42,6 +43,43 @@
     },
     "location": {
       "title": "Konumumuz"
+    },
+    "harmony": {
+      "tagline": "Modatepe Trabzon Ortahisar",
+      "heroTitle": "Doğanın Kalbinde Eşsiz Bir Kaçış",
+      "heroSubtitle": "Karadeniz'in eşsiz manzarasında lezzet ve huzurun buluştuğu yer.",
+      "exploreRestaurant": "Restoranı Keşfet",
+      "exploreAccommodation": "Konaklamayı Gör",
+      "intro": {
+        "label": "Hoş Geldiniz",
+        "title": "Modatepe Restoran & Konaklama",
+        "description": "Trabzon Ortahisar'ın yemyeşil tepelerinde, Karadeniz'in nefes kesen manzarası eşliğinde yöresel lezzetler ve butik konaklama deneyimi."
+      },
+      "restaurant": {
+        "label": "Lezzet Durağı",
+        "title": "Karadeniz Mutfağının Seçkin Lezzetleri",
+        "description": "Akçaabat köftesi, jersey saç kavurma, serpme kahvaltı ve daha fazlası. Yöresel tariflerin titizlikle hazırlanmış halini, manzaralı sofralarımızda yaşayın.",
+        "cta": "Restoranımıza Göz At"
+      },
+      "accommodation": {
+        "label": "Butik Konaklama",
+        "title": "Doğayla İç İçe Huzurlu Odalar",
+        "description": "Deluxe odalardan geleneksel taş evlere; modern konforu yöresel mimariyle harmanlayan butik konaklama seçenekleri.",
+        "cta": "Odaları Keşfet"
+      },
+      "experience": {
+        "label": "Deneyim",
+        "title": "Sis Bulutları, Yeşil Tepeler ve Sonsuz Manzara",
+        "description": "Sabah çay molanızı kuş seslerine eşlik ederek alın. Akşamları sis bulutlarının üstünden batan güneşi izleyin."
+      },
+      "gallery": {
+        "label": "Galeri",
+        "title": "Bir Bakışta Modatepe"
+      },
+      "location": {
+        "label": "Konum",
+        "title": "Trabzon Ortahisar"
+      }
     }
   },
   "restaurant": {
@@ -110,6 +148,54 @@
     },
     "gallery": {
       "title": "Restoran Galerisi"
+    },
+    "harmony": {
+      "tagline": "Modatepe Restoran Trabzon",
+      "heroTitle": "Muhteşem Manzara, Lezzetli Yemekler ve Huzurlu Anlar",
+      "heroSubtitle": "Karadeniz'in eşsiz doğasında yöresel lezzetlerimizle sizi bekliyoruz.",
+      "viewMenu": "Menümüz",
+      "stage": {
+        "label": "Manzaralı Deneyim",
+        "title": "Modatepe Manzarası",
+        "description": "Karadeniz'in masmavi gökyüzü altında, sis bulutlarına kucak açan yeşilliklerin arasında her öğün bir manzaralı kutlamaya dönüşür.",
+        "cta": "Galeriye Göz At"
+      },
+      "dishes": {
+        "label": "Lezzetli Yemekler",
+        "title": "Türk ve Karadeniz Mutfağı",
+        "description": "Yöresel tariflerden modern sunumlara, her tabakta taze malzemenin ve özenli pişirmenin izi bulunur.",
+        "items": {
+          "antrikot": "Dana Antrikot",
+          "pirzola": "Kuzu Pirzola",
+          "sacKavurma": "Saç Kavurma",
+          "kofte": "Akçaabat Köfte",
+          "kahvalti": "Serpme Kahvaltı",
+          "sutlac": "Hamsiköy Sütlacı"
+        }
+      },
+      "traditional": {
+        "label": "Yöresel Sofra",
+        "title": "Karadeniz Tatları",
+        "description": "Kuymaktan hamsi tavaya, semaver çayından Hamsiköy sütlacına; her detay Karadeniz'in samimiyetini yansıtır.",
+        "cta": "Tüm Menüyü Gör"
+      },
+      "story": {
+        "label": "Hikayemiz",
+        "title": "Trabzon'un Kalbinde Bir Lezzet Durağı",
+        "description": "Modatepe, Ortahisar'ın yemyeşil tepelerinde misafirperverliğin ve Karadeniz mutfağının buluştuğu noktadır. Doğanın huzurunu sofranıza taşıyoruz."
+      },
+      "gallery": {
+        "label": "Galeri",
+        "title": "Bir Bakışta Modatepe"
+      },
+      "contact": {
+        "label": "İletişim",
+        "title": "Rezervasyon ve Konum",
+        "phone": "Telefon",
+        "whatsapp": "WhatsApp",
+        "address": "Adres",
+        "addressValue": "Akoluk Mah. Modatepe Mevkii, Ortahisar / Trabzon"
+      }
     }
   },
   "accommodation": {
@@ -120,23 +206,61 @@
       "normalRoom": {
         "title": "Deluxe Oda",
         "description": "Modern konforu geleneksel dokunuşlarla harmanlayan standart odalarımız. 2 adet mevcuttur.",
-        "count": "2 Oda"
+        "count": "2 Oda",
+        "capacity": "2 Kişilik",
+        "long": "Deluxe odalarımız, modern konforu Karadeniz'in sıcak dokusuyla buluşturuyor. Geniş pencerelerinden içeri dolan doğal ışık ve yemyeşil tepe manzarası eşliğinde huzurlu bir konaklama sizi bekliyor. Konforlu yatak, özel banyo ve günlük temizlik hizmetiyle kendinizi evinizde hissedeceksiniz.",
+        "features": ["wifi", "ac", "privateBath", "tv", "view", "dailyClean"]
       },
       "deluxeRoom": {
         "title": "Suit Oda",
         "description": "Geniş ve lüks tasarımlı odamız, özel konuklarımız için ekstra konforu sunar.",
-        "count": "1 Oda"
+        "count": "1 Oda",
+        "capacity": "2+2 Kişilik",
+        "long": "Suit odamız, ekstra alan ve lüks detaylarla özel anlar için tasarlandı. Ferah oturma köşesi, panoramik manzara ve özenle seçilmiş mobilyalar; balayı, özel kutlamalar veya sadece kendinizi şımartmak için ideal. Geniş banyo ve premium donanımlarla unutulmaz bir konaklama yaşayın.",
+        "features": ["wifi", "ac", "privateBath", "tv", "view", "minibar", "balcony", "dailyClean"]
       },
       "normalStoneHouse": {
         "title": "Alaçatı Taş Ev",
         "description": "Geleneksel taş mimariye sahip evlerimiz, otantik bir konaklama deneyimi sunar.",
-        "count": "2 Ev"
+        "count": "2 Ev",
+        "capacity": "2+2 Kişilik",
+        "long": "Geleneksel taş mimarisiyle inşa edilen Alaçatı Taş Ev, otantik bir atmosfer sunuyor. Kalın taş duvarların serinliği, ahşap detaylar ve doğayla bütünleşen tasarımıyla aileler için ideal bir kaçış. İki yatak odası, çift banyo ve özel girişiyle mahremiyet ve konforu bir arada yaşayın.",
+        "features": ["wifi", "doubleBath", "kitchen", "heating", "view", "privateEntrance"]
       },
       "deluxeStoneHouse": {
         "title": "Modatepe Taş Ev",
         "description": "Lüks donanımlı taş evimiz, geniş aileler ve özel misafirler için idealdir.",
-        "count": "1 Ev"
+        "count": "1 Ev",
+        "capacity": "5+2 Kişilik",
+        "long": "Modatepe Taş Ev, en geniş ve en lüks konaklama seçeneğimiz. Çift katlı yapısı, geniş yaşam alanları ve panoramik tepe manzarasıyla kalabalık aileler ve özel misafir grupları için mükemmel. Tam donanımlı mutfak, çift banyo ve özel bahçesiyle evinizin tüm konforunu doğanın içinde yaşayın.",
+        "features": ["wifi", "doubleBath", "kitchen", "heating", "view", "twoFloors", "garden", "privateEntrance"]
       }
+    },
+    "features": {
+      "wifi": "Ücretsiz WiFi",
+      "ac": "Klima",
+      "privateBath": "Özel Banyo",
+      "doubleBath": "Çift Banyo",
+      "tv": "Smart TV",
+      "view": "Manzara",
+      "minibar": "Minibar",
+      "balcony": "Balkon",
+      "kitchen": "Mutfak",
+      "heating": "Isıtma",
+      "dailyClean": "Günlük Temizlik",
+      "privateEntrance": "Özel Giriş",
+      "twoFloors": "Çift Kat",
+      "garden": "Özel Bahçe"
+    },
+    "detail": {
+      "overview": "Genel Bakış",
+      "amenitiesTitle": "Oda Olanakları",
+      "capacityLabel": "Kapasite",
+      "galleryTitle": "Galeri",
+      "backToRooms": "Tüm Odalar",
+      "otherRooms": "Diğer Konaklama Seçenekleri",
+      "reserveTitle": "Bu Odayı Rezerve Edin",
+      "reserveText": "Müsaitlik ve fiyat bilgisi için WhatsApp üzerinden bize ulaşın."
     },
     "faq": {
       "title": "Sık Sorulan Sorular",
@@ -148,6 +272,39 @@
       "a3": "Evet, misafirlerimiz için ücretsiz otopark hizmeti bulunmaktadır.",
       "q4": "Evcil hayvan kabul ediliyor mu?",
       "a4": "Evcil hayvanlarınızla ilgili önceden bilgi vermeniz durumunda uygun koşullarda kabul edilmektedir."
+    },
+    "harmony": {
+      "tagline": "Modatepe Konaklama",
+      "heroTitle": "Karadeniz'in Tepelerinde Butik Konaklama",
+      "heroSubtitle": "Modern konfor, yöresel mimari ve sınırsız manzara.",
+      "viewRooms": "Odaları İncele",
+      "intro": {
+        "label": "Konaklama",
+        "title": "Doğanın İçinde Huzurlu Bir Mola",
+        "description": "Her odamız doğayla iç içe konumda, panoramik manzara ve özenli detaylarla tasarlanmıştır."
+      },
+      "amenities": {
+        "label": "İmkanlar",
+        "title": "Tesisimizde Sizleri Bekleyenler",
+        "wifi": "Ücretsiz WiFi",
+        "wifiDesc": "Tüm odalarda yüksek hızlı internet",
+        "parking": "Özel Otopark",
+        "parkingDesc": "Güvenli ve ücretsiz park alanı",
+        "breakfast": "Serpme Kahvaltı",
+        "breakfastDesc": "Karadeniz'in en zengin sofrası",
+        "reception": "7/24 Hizmet",
+        "receptionDesc": "Her an yanınızdayız"
+      },
+      "rooms": {
+        "label": "Konaklama Türleri",
+        "title": "Size Özel Odalar",
+        "amenitiesLabel": "Olanaklar",
+        "discover": "Detayları Gör"
+      },
+      "faq": {
+        "label": "S.S.S.",
+        "title": "Merak Edilenler"
+      }
     }
   },
   "blog": {

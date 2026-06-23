@@ -92,3 +92,4 @@ jspm_packages/
 
 # Bolt specific
 .bolt/
+.env.production/

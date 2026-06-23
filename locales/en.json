@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "Home",
+    "restaurant": "Restaurant",
     "galleryPhotos": "Facility Photos",
     "menu": "Menu",
     "accommodation": "Accommodation",
@@ -42,6 +43,43 @@
     },
     "location": {
       "title": "Our Location"
+    },
+    "harmony": {
+      "tagline": "Modatepe Trabzon Ortahisar",
+      "heroTitle": "A Unique Escape in the Heart of Nature",
+      "heroSubtitle": "Where flavor and peace meet under the magnificent Black Sea panorama.",
+      "exploreRestaurant": "Discover Restaurant",
+      "exploreAccommodation": "View Accommodation",
+      "intro": {
+        "label": "Welcome",
+        "title": "Modatepe Restaurant & Accommodation",
+        "description": "On the lush hills of Trabzon Ortahisar, enjoy local flavors and boutique accommodation against the breathtaking Black Sea panorama."
+      },
+      "restaurant": {
+        "label": "Flavor Stop",
+        "title": "Finest Flavors of Black Sea Cuisine",
+        "description": "Akçaabat meatballs, jersey beef, traditional breakfast and more. Experience carefully prepared regional recipes with a panoramic view.",
+        "cta": "Visit Our Restaurant"
+      },
+      "accommodation": {
+        "label": "Boutique Stay",
+        "title": "Peaceful Rooms Amid Nature",
+        "description": "From deluxe rooms to traditional stone houses; boutique stays that blend modern comfort with regional architecture.",
+        "cta": "Explore Rooms"
+      },
+      "experience": {
+        "label": "Experience",
+        "title": "Mist Clouds, Green Hills and Endless View",
+        "description": "Start your day with birdsong and tea. End it with a sunset above the clouds."
+      },
+      "gallery": {
+        "label": "Gallery",
+        "title": "Modatepe at a Glance"
+      },
+      "location": {
+        "label": "Location",
+        "title": "Trabzon Ortahisar"
+      }
     }
   },
   "restaurant": {
@@ -110,6 +148,54 @@
     },
     "gallery": {
       "title": "Restaurant Gallery"
+    },
+    "harmony": {
+      "tagline": "Modatepe Restaurant Trabzon",
+      "heroTitle": "Stunning Views, Delicious Food and Peaceful Moments",
+      "heroSubtitle": "We welcome you to the unique nature of the Black Sea with our local flavors.",
+      "viewMenu": "Our Menu",
+      "stage": {
+        "label": "Scenic Experience",
+        "title": "Modatepe Panorama",
+        "description": "Under the deep blue Black Sea sky, surrounded by misty greenery, every meal becomes a scenic celebration.",
+        "cta": "Open Gallery"
+      },
+      "dishes": {
+        "label": "Delicious Dishes",
+        "title": "Turkish and Black Sea Cuisine",
+        "description": "From traditional recipes to modern plating, every dish reflects fresh ingredients and careful cooking.",
+        "items": {
+          "antrikot": "Beef Ribeye",
+          "pirzola": "Lamb Chops",
+          "sacKavurma": "Sac Kavurma",
+          "kofte": "Akçaabat Meatballs",
+          "kahvalti": "Spread Breakfast",
+          "sutlac": "Hamsiköy Rice Pudding"
+        }
+      },
+      "traditional": {
+        "label": "Local Table",
+        "title": "Black Sea Flavors",
+        "description": "From kuymak to hamsi tava, samovar tea to Hamsiköy rice pudding — every detail reflects Black Sea hospitality.",
+        "cta": "See Full Menu"
+      },
+      "story": {
+        "label": "Our Story",
+        "title": "A Flavor Stop in the Heart of Trabzon",
+        "description": "Modatepe is where hospitality meets Black Sea cuisine on the lush hills of Ortahisar. We bring the calm of nature to your table."
+      },
+      "gallery": {
+        "label": "Gallery",
+        "title": "Modatepe at a Glance"
+      },
+      "contact": {
+        "label": "Contact",
+        "title": "Reservation and Location",
+        "phone": "Phone",
+        "whatsapp": "WhatsApp",
+        "address": "Address",
+        "addressValue": "Akoluk Neighborhood, Modatepe, Ortahisar / Trabzon"
+      }
     }
   },
   "accommodation": {
@@ -148,6 +234,39 @@
       "a3": "Yes, free parking service is available for our guests.",
       "q4": "Are pets allowed?",
       "a4": "Pets are accepted under suitable conditions provided you inform us in advance."
+    },
+    "harmony": {
+      "tagline": "Modatepe Accommodation",
+      "heroTitle": "Boutique Stays on the Hills of Black Sea",
+      "heroSubtitle": "Modern comfort, regional architecture and endless views.",
+      "viewRooms": "Browse Rooms",
+      "intro": {
+        "label": "Accommodation",
+        "title": "A Peaceful Break in Nature",
+        "description": "Each of our rooms is set within nature, designed with panoramic views and thoughtful details."
+      },
+      "amenities": {
+        "label": "Amenities",
+        "title": "What Awaits at Our Facility",
+        "wifi": "Free WiFi",
+        "wifiDesc": "High speed internet in all rooms",
+        "parking": "Private Parking",
+        "parkingDesc": "Safe and free parking area",
+        "breakfast": "Spread Breakfast",
+        "breakfastDesc": "The richest Black Sea table",
+        "reception": "24/7 Service",
+        "receptionDesc": "We are with you anytime"
+      },
+      "rooms": {
+        "label": "Room Types",
+        "title": "Rooms Crafted for You",
+        "amenitiesLabel": "Amenities",
+        "discover": "View Details"
+      },
+      "faq": {
+        "label": "FAQ",
+        "title": "Frequently Asked"
+      }
     }
   },
   "blog": {

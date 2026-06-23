@@ -520,3 +520,183 @@ a {
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+/* ===================================
+   CINEMA / HARMONY ANIMATIONS
+   =================================== */
+
+@keyframes ken-burns {
+  0%   { transform: scale(1.0) translate(0, 0); }
+  50%  { transform: scale(1.12) translate(-2%, -1%); }
+  100% { transform: scale(1.0) translate(0, 0); }
+}
+.animate-ken-burns {
+  animation: ken-burns 28s ease-in-out infinite;
+  will-change: transform;
+}
+
+@keyframes slow-zoom {
+  from { transform: scale(1.0); }
+  to   { transform: scale(1.18); }
+}
+.animate-slow-zoom {
+  animation: slow-zoom 30s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes cinema-fade {
+  from { opacity: 0; transform: translateY(40px); filter: blur(8px); }
+  to   { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+.cinema-fade-1 { animation: cinema-fade 1.2s 0.1s ease-out both; }
+.cinema-fade-2 { animation: cinema-fade 1.2s 0.45s ease-out both; }
+.cinema-fade-3 { animation: cinema-fade 1.2s 0.8s ease-out both; }
+.cinema-fade-4 { animation: cinema-fade 1.2s 1.15s ease-out both; }
+
+@keyframes scroll-cue {
+  0%   { transform: translateY(0); opacity: 0.8; }
+  50%  { transform: translateY(10px); opacity: 1; }
+  100% { transform: translateY(0); opacity: 0.8; }
+}
+.animate-scroll-cue { animation: scroll-cue 2.2s ease-in-out infinite; }
+
+@keyframes shimmer-gold {
+  0%, 100% { opacity: 0.4; }
+  50%      { opacity: 1; }
+}
+.animate-shimmer-gold { animation: shimmer-gold 3s ease-in-out infinite; }
+
+/* Premium typography helpers */
+.font-display { font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif; }
+.font-serif-elegant { font-family: 'Cormorant Garamond', Georgia, serif; }
+.font-body-elegant { font-family: 'Lato', 'Inter', sans-serif; }
+
+/* Gold palette */
+.text-gold { color: #C9A56A; }
+.text-gold-light { color: #E0BD86; }
+.bg-gold { background-color: #C9A56A; }
+.border-gold { border-color: #C9A56A; }
+
+/* Cinema overlay gradients */
+.cinema-overlay-bottom {
+  background: linear-gradient(180deg,
+    rgba(8, 14, 11, 0.0) 0%,
+    rgba(8, 14, 11, 0.15) 40%,
+    rgba(8, 14, 11, 0.75) 85%,
+    rgba(8, 14, 11, 0.9) 100%);
+}
+.cinema-overlay-full {
+  background: linear-gradient(180deg,
+    rgba(8, 14, 11, 0.55) 0%,
+    rgba(8, 14, 11, 0.35) 35%,
+    rgba(8, 14, 11, 0.8) 100%);
+}
+.cinema-overlay-side {
+  background: linear-gradient(90deg,
+    rgba(8, 14, 11, 0.85) 0%,
+    rgba(8, 14, 11, 0.55) 40%,
+    rgba(8, 14, 11, 0.15) 100%);
+}
+
+/* Decorative gold divider */
+.gold-divider {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  color: #C9A56A;
+  font-size: 0.72rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Lato', 'Inter', sans-serif;
+}
+.gold-divider::before,
+.gold-divider::after {
+  content: '';
+  width: 60px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #C9A56A, transparent);
+}
+
+/* Premium CTA buttons */
+.btn-gold {
+  background: #C9A56A;
+  color: #0F1410;
+  font-family: 'Lato', 'Inter', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  padding: 16px 36px;
+  border: none;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.btn-gold:hover {
+  background: #B89060;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(184, 144, 96, 0.4);
+}
+
+.btn-ghost-gold {
+  background: transparent;
+  color: #F5EBDB;
+  border: 1px solid #C9A56A;
+  font-family: 'Lato', 'Inter', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  padding: 16px 36px;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.btn-ghost-gold:hover {
+  background: #C9A56A;
+  color: #0F1410;
+}
+
+/* Premium card */
+.card-premium {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.card-premium:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 50px rgba(0,0,0,0.18);
+}
+.card-premium .img-wrap { overflow: hidden; }
+.card-premium img { transition: transform 0.9s ease; }
+.card-premium:hover img { transform: scale(1.08); }
+.card-premium .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 40%, rgba(8,16,12,0.92) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 24px;
+}
+
+/* Page background tones */
+.bg-cream { background-color: #FAF6EF; }
+.bg-cream-warm { background-color: #F5EBDB; }
+.bg-charcoal { background-color: #0F1410; }
+.bg-charcoal-soft { background-color: #1A2620; }
+
+/* Parallax-feel image holder */
+.parallax-holder {
+  position: relative;
+  overflow: hidden;
+}
+.parallax-holder img {
+  transform: translateZ(0);
+}

@@ -13,6 +13,7 @@ import manzara4k from '/images/manzara4k.jpeg';
 import manzaraiyi from '/images/manzaraiyi.jpeg';
 import normaloda from '/images/normaloda.jpeg';
 import { getTranslations, type Locale } from '@/lib/i18n';
+import { ImageIcon } from 'lucide-react';
 
 interface GalleryPageProps {
     params: { locale: Locale };
@@ -47,44 +48,57 @@ export default async function GalleryPage({ params: { locale } }: GalleryPagePro
 
     return (
         <>
-            {/* Hero Section */}
-            <section className="relative h-96 flex items-center justify-center overflow-hidden">
+            <style>{`
+                @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Cormorant+Garamond:wght@400;500;600;700&family=Lato:wght@300;400;500;700&display=swap');
+                body { background: #0F1410; }
+            `}</style>
+
+            {/* ============ CINEMA HERO ============ */}
+            <section className="relative overflow-hidden" style={{ minHeight: '80vh' }}>
                 <Image
                     src={manzara4k}
                     alt={translations.nav.galleryPhotos}
                     fill
-                    className="object-cover"
+                    priority
+                    className="object-cover animate-ken-burns"
                     sizes="100vw"
                 />
-                <div className="absolute inset-0 bg-black/30" />
+                <div className="absolute inset-0 cinema-overlay-full" />
 
-                <div className="relative z-10 text-center text-white px-4">
-                    <h1 className="text-4xl md:text-5xl font-bold mb-4 animate-fade-in">
+                <div className="relative z-10 flex flex-col items-center justify-center text-center px-6 py-24" style={{ minHeight: '80vh' }}>
+                    <p className="font-body-elegant cinema-fade-1 text-gold mb-5" style={{ fontSize: '0.78rem', letterSpacing: '0.4em', textTransform: 'uppercase', fontWeight: 500 }}>
+                        <ImageIcon className="inline w-4 h-4 mr-2 -mt-1" />
                         {translations.nav.galleryPhotos}
+                    </p>
+                    <h1 className="font-display cinema-fade-2 text-white font-bold mb-6 max-w-3xl" style={{ fontSize: 'clamp(2.4rem, 5.5vw, 4.2rem)', lineHeight: 1.1, textShadow: '0 4px 28px rgba(0,0,0,0.5)' }}>
+                        Bir Bakışta Modatepe
                     </h1>
-                    <p className="text-lg md:text-xl max-w-2xl mx-auto">
-                        Tesisimizden fotoğraflar
+                    <div className="gold-divider cinema-fade-3 mb-6">
+                        <span>✦</span>
+                    </div>
+                    <p className="font-serif-elegant cinema-fade-3 text-white/90 max-w-2xl" style={{ fontSize: '1.2rem', fontStyle: 'italic', lineHeight: 1.7 }}>
+                        Tesisimizden fotoğraflar, doğa manzaraları ve yöresel sofralar.
                     </p>
                 </div>
             </section>
 
-            {/* Gallery Section */}
-            <section className="py-20">
-                <div className="container mx-auto px-4">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+            {/* ============ GALLERY GRID ============ */}
+            <section className="bg-charcoal py-24 md:py-32">
+                <div className="container mx-auto px-6 max-w-7xl">
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
                         {galleryImages.map((image, index) => (
                             <div
                                 key={index}
-                                className="relative h-64 md:h-80 rounded-2xl overflow-hidden hover-scale shadow-soft animate-scale-in"
-                                style={{ animationDelay: `${index * 0.1}s` }}
+                                className="relative aspect-square overflow-hidden group cursor-pointer"
                             >
                                 <Image
                                     src={image}
                                     alt={`Tesis fotoğrafı ${index + 1}`}
                                     fill
-                                    className="object-cover"
-                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                    className="object-cover transition-all duration-700 brightness-90 group-hover:brightness-110 group-hover:scale-110"
+                                    sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
                                 />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                             </div>
                         ))}
                     </div>
